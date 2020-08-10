@@ -1,8 +1,10 @@
 package test.java;
-import static org.junit.Assert.*;
+
+
 
 import org.junit.After;
 import org.junit.AfterClass;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -63,8 +65,8 @@ public class TestJenkins {
 	@Test
 	public void testSuma() {
 		int resultado = main.suma(5, 6);
-		
-		assertTrue(resultado == 11);
+
+		Assert.assertTrue(resultado == 11);
 	}
 
 	/**
@@ -74,7 +76,7 @@ public class TestJenkins {
 	public void testResta() {
 		int resultado = main.resta(22, 10);
 		
-		assertTrue(resultado == 12);
+		Assert.assertTrue(resultado == 12);
 	}
 
 	/**
@@ -84,7 +86,7 @@ public class TestJenkins {
 	public void testMultiplicacion() {
 		int resultado = main.multiplicacion(4, 12);
 		
-		assertTrue(resultado == 48);
+		Assert.assertTrue(resultado == 48);
 	}
 
 }
