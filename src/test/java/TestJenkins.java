@@ -1,3 +1,4 @@
+package test.java;
 import static org.junit.Assert.*;
 
 import org.junit.After;
@@ -6,7 +7,7 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import main.java.com.mqk.jenkinsTest.Main;
+import main.java.Main;
 
 /**
  * 
@@ -57,7 +58,7 @@ public class TestJenkins {
 //	}
 
 	/**
-	 * Test method for {@link main.java.com.mqk.jenkinsTest.Main#suma(int, int)}.
+	 * Test method for {@link main.java.Main#suma(int, int)}.
 	 */
 	@Test
 	public void testSuma() {
@@ -67,7 +68,7 @@ public class TestJenkins {
 	}
 
 	/**
-	 * Test method for {@link main.java.com.mqk.jenkinsTest.Main#resta(int, int)}.
+	 * Test method for {@link main.java.Main#resta(int, int)}.
 	 */
 	@Test
 	public void testResta() {
@@ -77,7 +78,7 @@ public class TestJenkins {
 	}
 
 	/**
-	 * Test method for {@link main.java.com.mqk.jenkinsTest.Main#multiplicacion(int, int)}.
+	 * Test method for {@link main.java.Main#multiplicacion(int, int)}.
 	 */
 	@Test
 	public void testMultiplicacion() {
