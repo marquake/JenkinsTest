@@ -1,7 +1,5 @@
 package test.java;
 
-
-
 import org.junit.After;
 import org.junit.AfterClass;
 import org.junit.Assert;
@@ -21,7 +19,7 @@ import main.java.Main;
  */
 public class TestJenkins {
 
-	Main main = new Main();
+
 
 	/**
 	 * @throws java.lang.Exception
@@ -64,6 +62,7 @@ public class TestJenkins {
 	 */
 	@Test
 	public void testSuma() {
+		Main main = new Main();
 		int resultado = main.suma(5, 6);
 
 		Assert.assertTrue(resultado == 11);
@@ -74,6 +73,7 @@ public class TestJenkins {
 	 */
 	@Test
 	public void testResta() {
+		Main main = new Main();
 		int resultado = main.resta(22, 10);
 		
 		Assert.assertTrue(resultado == 12);
@@ -84,6 +84,7 @@ public class TestJenkins {
 	 */
 	@Test
 	public void testMultiplicacion() {
+		Main main = new Main();
 		int resultado = main.multiplicacion(4, 12);
 		
 		Assert.assertTrue(resultado == 48);
