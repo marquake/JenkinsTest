@@ -20,12 +20,12 @@ import main.java.Main;
 public class TestJenkins {
 
 
-
 	/**
 	 * @throws java.lang.Exception
 	 */
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
+		System.out.println("setUpBeforeClass()");
 	}
 
 	/**
@@ -33,6 +33,7 @@ public class TestJenkins {
 	 */
 	@AfterClass
 	public static void tearDownAfterClass() throws Exception {
+		System.out.println("tearDownAfterClass()");
 	}
 
 	/**
@@ -40,6 +41,7 @@ public class TestJenkins {
 	 */
 	@Before
 	public void setUp() throws Exception {
+		System.out.println("setUp()");
 	}
 
 	/**
@@ -47,6 +49,7 @@ public class TestJenkins {
 	 */
 	@After
 	public void tearDown() throws Exception {
+		System.out.println("tearDown()");
 	}
 
 //	/**
@@ -66,6 +69,8 @@ public class TestJenkins {
 		int resultado = main.suma(5, 6);
 
 		Assert.assertTrue(resultado == 11);
+
+		System.out.println("Fin testSuma");
 	}
 
 	/**
@@ -75,8 +80,10 @@ public class TestJenkins {
 	public void testResta() {
 		Main main = new Main();
 		int resultado = main.resta(22, 10);
-		
+
 		Assert.assertTrue(resultado == 12);
+
+		System.out.println("Fin testResta");
 	}
 
 	/**
@@ -88,6 +95,8 @@ public class TestJenkins {
 		int resultado = main.multiplicacion(4, 12);
 		
 		Assert.assertTrue(resultado == 48);
+
+		System.out.println("Fin testMultiplicacion");
 	}
 
 }

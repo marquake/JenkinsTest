@@ -22,8 +22,9 @@
 	    <artifactId>junit</artifactId>
 	    <version>4.13</version>
 	    <!-- 
+	    Comento esto para que encuentre correctamente la carpeta de los test
 	    <scope>test</scope>
-	 -->
+	 	-->
 	</dependency>
 
    </dependencies>
