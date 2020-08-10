@@ -10,7 +10,7 @@ pipeline {
           }
         }
 
-        stage('error') {
+        stage('DES - fin') {
           steps {
             echo 'FIN DESA'
           }
@@ -27,7 +27,7 @@ pipeline {
           }
         }
 
-        stage('error') {
+        stage('PRE - fin') {
           steps {
             echo 'FIN PRE'
           }
@@ -44,7 +44,7 @@ pipeline {
           }
         }
 
-        stage('error') {
+        stage('PRO - fin') {
           steps {
             echo 'FIN PRO'
           }
