@@ -71,7 +71,7 @@ public class TestJenkins {
 	 */
 	@Test
 	public void testResta() {
-int resultado = main.resta(22, 10);
+		int resultado = main.resta(22, 10);
 		
 		assertTrue(resultado == 12);
 	}
@@ -81,7 +81,7 @@ int resultado = main.resta(22, 10);
 	 */
 	@Test
 	public void testMultiplicacion() {
-int resultado = main.multiplicacion(4, 12);
+		int resultado = main.multiplicacion(4, 12);
 		
 		assertTrue(resultado == 48);
 	}
